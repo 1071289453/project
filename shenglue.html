@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			.one {
+				width:100px;
+				overflow: hidden;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+				background-color: pink;
+			}
+			/* 多行文本溢出显示省略号，有很大兼容问题。适用于webkit浏览器或移动端（移动端大部分是webkit内核） */
+			.more {
+				width:100px;
+				background-color: pink;
+				overflow: hidden; 
+				text-overflow: ellipsis;
+				display: -webkit-box;
+				-webkit-line-clamp: 2;
+				-webkit-box-orient: vertical;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>单行文字省略</h1>
+		<div class="one">
+			撒旦士大夫VS电风扇电风扇犯得上士大夫是
+		</div>
+		<h1>多行文字省略</h1>
+		<div class="more">
+			撒旦士大夫VS电风扇电风扇犯得上士大夫是
+		</div>
+	</body>
+</html>
