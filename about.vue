@@ -216,6 +216,6 @@
 	}
 	.git {
 			color:#ff0000;
-	}
-	/* 这是在master上进行提交的 */
+	} 
+	/* 上传到github的服务器上 */
 </style>
