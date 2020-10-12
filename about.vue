@@ -214,7 +214,5 @@
 	.link {
 		color: #007AFF;
 	}
-	.git {
-			color:#ff0000;
-	}
+	/* 这是我在dev进行的项目提交 */
 </style>
