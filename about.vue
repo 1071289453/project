@@ -214,7 +214,7 @@
 	.link {
 		color: #007AFF;
 	}
-	.dong {
-		background:#888
+	.git {
+			color:#ff0000;
 	}
 </style>
